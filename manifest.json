@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+
+	"name": "Shtn It!",
+	"version": "3.0.6",
+	"description": "Shtn any URL for free via the PXIMG image host.",
+	"background": {
+		"scripts": ["shtn.js"],
+		"persistent": false
+	},
+	"icons": {
+		"16": "icon_16x16.png",
+    "48": "icon_48x48.png",
+		"128": "icon_128x128.png"
+	},
+	"browser_action": {
+		"default_icon": "icon.png"
+	},
+	"author": "PXgamer",
+	"permissions": [
+		"activeTab",
+		"notifications",
+		"https://pximg.xyz/*"
+	]
+}
